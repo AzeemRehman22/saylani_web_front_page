@@ -1,0 +1,412 @@
+header{
+    width: 100%;
+    height: 25px;
+   
+    background-color:rgba(0, 0, 255, 0.575);
+}
+a{
+    text-decoration: none;
+  
+
+}
+#icon{
+    margin-top: 2px;
+    margin-left: 25px;
+    width: 20%;
+    height: 20px;
+    float:left;
+    word-spacing: 5px;
+}
+#heading{
+    /* margin-top: 4px; */
+    width: 45%;
+    height: 20px;
+    float: left;
+    font-size: 8px;
+    color: white;
+    
+  
+}
+#button{
+    
+    width: 29%;
+    height: 20px;
+    float:left;
+}
+button{
+    
+    width: 44px;
+    height: 15px;
+    font-size: 5px;
+    background-color: white;
+   
+}
+
+.header_2{
+  width: 100%;
+  height: 40px;
+  background-color: beige;
+}
+
+#logo{
+    margin-top: 10px;
+    float: left;
+    width: 37%;
+    height: 30PX;
+   
+  
+}
+#logoimg{
+    margin-left: 15px;
+    width: 34%;
+    height: 30px;
+}
+
+#navbar{
+    margin-left: 2px;
+    margin-top: 10px;
+    float: left;
+    width: 62%;
+    height: 30px;
+    
+   
+  
+}
+ul{
+text-align: left;
+display: inline;
+margin: 0;
+padding: 0;
+list-style: none;
+
+}
+ul li{
+    
+    display: inline;
+    position: relative;
+    padding: 3px;
+    background:none;
+
+
+}
+ul li a{
+    text-decoration: none;
+    padding: 3px;
+    color:black;
+    font-size: 8px;
+}
+ul li:hover{
+    background: rgba(0, 0, 255, 0.575);
+    color: white;
+    border-radius: 10px;
+
+}
+ul li ul{
+    padding: 0;
+    position: absolute;
+    top:25px;
+    left: 0;
+    width: 200px;
+    display: none;
+    visibility: hidden;
+
+}
+ul li ul li{
+    background:white;
+    display: block;
+}
+ul li ul li:hover{
+    background: rgba(0, 0, 255, 0.575);
+   
+}
+ul li:hover ul{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+ul ul ul li{
+    display: non;
+
+}
+ul ul li:hover li{
+    display: block;
+  
+}
+ul ul ul {
+    left:50%;
+    top: 0;
+
+}
+
+
+
+
+/* * {box-sizing:border-box} */
+
+/* Slideshow container
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  } */
+  /* 
+  Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+   .active, .dot:hover {
+    background-color: #717171;
+  } */
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+.intro{
+    width: 100%;
+    height: 350px;
+    background-color: beige;
+    
+  
+}
+h2{
+ text-align: center;
+
+ color:rgba(0, 0, 255, 0.575);
+ background-color: blue,green;
+}
+.into_wording{
+    margin-left: 10%;
+    margin-right: 10%;
+
+    font-size: x-small;
+}
+
+.logo{
+   margin-left: 45%;
+    width:8%;
+}
+
+.header_3{
+width: 100%;
+height:140px;
+background-color:rgba(0, 0, 255, 0.575);
+}
+
+
+
+.header_3_table{
+  width: 100%;
+  height: 140px;
+}
+td{
+  color: white;
+  font-size: large;
+  font-style: initial;
+text-align: center;
+  
+}
+.header_3_word{
+  font-size:xx-small;
+  
+}
+
+.header_4{
+  width: 100%;
+  height: 300px;
+  background-color: beige;
+}
+
+.header_4_table{
+  width: 80%;
+  height: 200px;
+  margin-left: 10%;
+  float: left;
+}
+.header_4_td{
+  width:30%;
+  height: 50px;
+  color:rgba(0, 0, 255, 0.575);
+  /* border: 1px solid black; */
+  font-size: x-small;
+  background-color: white;
+
+}
+.header_4_img{
+  color:rgba(0, 0, 255, 0.575) ;
+  background-color:rgba(0, 0, 255, 0.575);
+}
+
+.header_5{
+  width: 100%;
+  height: 200px;
+}
+
+.section{
+  width: 50%;
+  height: 200px;
+  float: left;
+  margin-left: 10%;
+  
+}
+.header_5_table{
+  width: 90%;
+  height: 100px;
+  
+}
+.head{
+ 
+  color:rgba(0, 0, 255, 0.575);
+}
+.header_5_td{
+  color:rgba(0, 0, 255, 0.575);
+  width: 15%;
+  font-size: x-small;
+  background-color: beige;
+  text-align: left;
+  
+}
+
+.sidebar{
+  width: 30%;
+  height: 200px;
+  float:left;;
+  
+}
+.header_6{
+  width: 100%;
+  height: 300px;
+}
+.images{
+  margin-left: 10%;
+  align-items: center;
+  border-radius: 40px;
+}
+.header_7{
+
+  width: 100%;
+  height: 200px;
+  background-color: #332f2f;
+}
+.header_7_table{
+  width: 80%;
+  height: 140px;
+  margin-left: 10%;
+ 
+  
+}
+.header_7_td_2{
+  font-size:8px;
+  text-align: left;
+  height: 80px;
+
+  
+}
+.header_7_td_1{
+  width: 26%;
+  height: 30px;
+  color: darkgray;
+  font-size: 8px;
+}
+.abc{
+  width: 26%;
+  height: 30px;
+}
+.aa{
+  text-align: justify;
+  text-justify: inter-word;
+  text-align: end;
+ 
+  color: darkgray;
+}
+.footer{
+  width: 100%;
+  height: 25px;
+  background-color: rgba(0, 0, 255, 0.575);
+  clear: both;
+}
+.bb{
+  clear: both;
+  margin-left: 10%;
+  font-size: 8px;
+  color: white;
+  
+}
+
+
+
+
